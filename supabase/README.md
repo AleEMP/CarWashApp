@@ -67,4 +67,4 @@ Lo demás (servicios, precios, fotos, horarios, promociones, reseñas) se lee y 
 npm run test:db
 ```
 
-Ejecuta las migraciones y el seed en un Postgres embebido (PGlite con PostGIS) y comprueba 55 casos: permisos por rol, RLS, escalada de privilegios, triggers, horarios, patrocinio y Storage. Simula `auth` y `storage` de Supabase, así que es una buena red de seguridad, pero no reemplaza probar contra el proyecto real.
+Ejecuta las migraciones y el seed en un Postgres embebido (PGlite con PostGIS) y comprueba 60 casos: permisos por rol, RLS, escalada de privilegios, triggers, horarios, patrocinio y Storage. Simula `auth` y `storage` de Supabase, así que es una buena red de seguridad, pero no reemplaza probar contra el proyecto real.
